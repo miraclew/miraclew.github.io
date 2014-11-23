@@ -8,3 +8,15 @@
 7. Git
 
 8. Use my domain
+9. Mac
+10. Ubuntu
+11. Rabbitmq
+12. Laravel
+
+
+$ lsb_release -a
+No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 14.04.1 LTS
+Release:    14.04
+Codename:   trusty
