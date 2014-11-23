@@ -1,12 +1,12 @@
 # Site settings
-title: Clean Blog
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+title: miraclew's Blog
+email: miraclew@gmail.com
+description: "Web development blog!"
 baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+url: "http://miraclew.github.io/"
+twitter_username: miraclewsh
+github_username:  miraclew
+facebook_username:  miraclew
 
 # Build settings
 markdown: kramdown
