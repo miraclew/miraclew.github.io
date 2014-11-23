@@ -2,7 +2,7 @@
 layout:     post
 title:      "tmux"
 subtitle:   "tmux 学习日志"
-date:       2014-11-24 12:00:00
+date:       2014-09-24 12:00:00
 author:     "miraclew"
 header-img: "img/post-bg-06.jpg"
 ---
@@ -18,3 +18,16 @@ if($argc != 2) {
 $name = $argv[1];
 echo "Hello, $name\n";
 {% endhighlight %}
+
+
+{% highlight php %}
+Alias /log /var/www/data/log
+
+<Directory /var/www/data/log>
+    Options FollowSymLinks
+    DirectoryIndex index.php
+
+    Options Indexes
+</Directory>
+{% endhighlight %}
+
