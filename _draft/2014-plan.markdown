@@ -6,3 +6,5 @@
 5. Tunnel
 6. Vim tips
 7. Git
+
+8. Use my domain
