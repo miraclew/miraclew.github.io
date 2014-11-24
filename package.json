@@ -1,9 +1,9 @@
 {
-    "name": "clean-blog",
-    "title": "Clean Blog",
+    "name": "miraclew-blog",
+    "title": "miraclew's Blog",
     "version": "1.0.0",
-    "homepage": "http://startbootstrap.com",
-    "author": "Start Bootstrap",
+    "homepage": "http://miraclew.github.com",
+    "author": "miraclew",
     "license": {
         "type": "Apache 2.0",
         "url": "https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE"
