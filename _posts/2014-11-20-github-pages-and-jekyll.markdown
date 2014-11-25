@@ -9,11 +9,19 @@ header-img: "img/post-bg-06.jpg"
 
 <h2>Install Ruby & Jekyll</h2>
 
-Install rvm and ruby:
- * `\curl -sSL https://get.rvm.io | bash -s stable`
- * `source /home/bob/.rvm/scripts/rvm`
- * `rvm install ruby-2.1`
- * `gem install jekyll`
+Install rvm:
+
+ `$\curl -sSL https://get.rvm.io | bash -s stable`
+
+ `$source /home/bob/.rvm/scripts/rvm`
+
+Install Ruby
+
+ `$rvm install ruby-2.1`
+ 
+Install jekyll
+
+ `$gem install jekyll`
 
 <h2>Choose a template</h2>
 <p>
@@ -23,6 +31,8 @@ Install rvm and ruby:
 </p>
 
 <h2>Run blog on local</h2>
+Run the command on the root directory on your blog
+
 `jekyll serve --watch`
 
 open browser and navigate to http://localhost:4000/
@@ -30,6 +40,6 @@ open browser and navigate to http://localhost:4000/
 <h2>Push to github</h2>
 <p>
 	After you finished composing your blog, push it to github, and check it out on github.io,
-	like http://miraclew.github.io
+	like <a href="http://miraclew.github.io">http://miraclew.github.io</a> 
 </p>
 
