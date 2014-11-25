@@ -19,7 +19,7 @@ Install rvm and ruby:
 <p>
 	Search on the web to find your favorite theme.
 	For example, my blog theme is
-	[https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll  Clean Blog by Start Bootstrap - Jekyll Version]
+	<a href="https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll">Clean Blog by Start Bootstrap - Jekyll Version</a>
 </p>
 
 <h2>Run blog on local</h2>
