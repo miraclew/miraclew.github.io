@@ -10,10 +10,10 @@ header-img: "img/post-bg-06.jpg"
 <h2>Install Ruby & Jekyll</h2>
 
 Install rvm and ruby:
-`\curl -sSL https://get.rvm.io | bash -s stable`
-`source /home/bob/.rvm/scripts/rvm`
-`rvm install ruby-2.1`
-`gem install jekyll`
+ `\curl -sSL https://get.rvm.io | bash -s stable`
+ `source /home/bob/.rvm/scripts/rvm`
+ `rvm install ruby-2.1`
+ `gem install jekyll`
 
 <h2>Choose a template</h2>
 <p>
