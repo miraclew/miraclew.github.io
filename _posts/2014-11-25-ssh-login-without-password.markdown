@@ -8,15 +8,16 @@ header-img: "img/post-bg-06.jpg"
 ---
 
 <h2>1. 生成本机公私钥</h2>
-<p>
-	`$ssh-keygen -t rsa`
-</p>
+
+`$ssh-keygen -t rsa`
 
 <h2>2. 拷贝公钥至远程主机</h2>
+
+`ssh-copy-id -i ~/.ssh/id_rsa.pub user@host`
 <p>
-	`ssh-copy-id -i ~/.ssh/id_rsa.pub user@host`
 	把公钥追加到服务器的.ssh/authorized_key上。
 	如本机不支持ssh-copy-id命令，可手动添加。
 </p>
+	
 
 <h2>3. 无密码登陆远程主机</h2>
