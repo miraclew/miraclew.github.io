@@ -16,11 +16,20 @@ Install rvm and ruby:
 `gem install jekyll`
 
 <h2>Choose a template</h2>
+<p>
+	Search on the web to find your favorite theme.
+	For example, my blog theme is Clean Blog by Start Bootstrap - Jekyll Version.
+	https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll
+</p>
 
 <h2>Run blog on local</h2>
 `jekyll serve --watch`
 
 open browser and navigate to http://localhost:4000/
 
-
+<h2>Push to github</h2>
+<p>
+	After you finished composing your blog, push it to github, and check it out on github.io,
+	like http://miraclew.github.io
+</p>
 
