@@ -22,10 +22,11 @@ header-img: "img/post-bg-06.jpg"
 <h3>Redis</h3>
  1. Tokens (Type: string, K/V: token/uid, TTL: 12h)
  2. Users (Type: hash, K/V: uid/{online, nickname, avatar etc.}, TTL: 7d)
- 3. Channels (Type: set, K/V: cid/uids, TTL: EVER)
- 4. Connectors: 
- 5. Connector Queue: (Type: list, K/V: connector_id/messages)
- 6. Device bindings
+ 3. ChannelUsers (Type: set, K/V: cid/uids, TTL: EVER)
+ 4. UserChannels 
+ 5. Connectors: 
+ 6. Connector Queue: (Type: list, K/V: connector_id/messages)
+ 7. Device bindings
 
 <h3>Hub API</h3>
  1. Token
@@ -40,5 +41,14 @@ header-img: "img/post-bg-06.jpg"
     * AddMember
     * RemoveMember
     * Members
- 4. 
+ 4. Fetch Messages
+    * UserMessages
+    * ChannelMessages
+    * UnreceivedMessage
+ 5. Ack
+    * UserAckList: all channels subscribed
+    * ChannelAck
 
+<h3>Message Store</h3>
+ 1. When a message pushed to HUB, it will be stored in db
+ 2. 
