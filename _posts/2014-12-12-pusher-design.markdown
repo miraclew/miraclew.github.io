@@ -24,11 +24,21 @@ header-img: "img/post-bg-06.jpg"
  2. Users (Type: hash, K/V: uid/{online, nickname, avatar etc.}, TTL: 7d)
  3. Channels (Type: set, K/V: cid/uids, TTL: EVER)
  4. Connectors: 
- 5. Connector Queue: (Type: list, K/V: connector_id/messages )
+ 5. Connector Queue: (Type: list, K/V: connector_id/messages)
  6. Device bindings
 
-<h3>Test with PHP</h3>
-
-Create PHP project with composer
-`mkdir `
+<h3>Hub API</h3>
+ 1. Token
+    * NewToken
+    * RefreshToken
+    * RevokeToken
+ 2. Push
+    * ToUser
+    * ToChannel
+ 3. Channel
+    * NewChannel
+    * AddMember
+    * RemoveMember
+    * Members
+ 4. 
 
