@@ -15,7 +15,7 @@ header-img: "img/post-bg-06.jpg"
 
 `ssh-copy-id -i ~/.ssh/id_rsa.pub user@host`
 <p>
-	把公钥追加到服务器的.ssh/authorized_key上。
+	把公钥追加到服务器的.ssh/authorized_keys上。
 	如本机不支持ssh-copy-id命令，可手动添加。
 </p>
 	
